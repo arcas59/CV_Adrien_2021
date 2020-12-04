@@ -11,13 +11,63 @@
     font-style: normal;
 }
 body {
-    font-family: 'Armata', sans-serif; }
+    font-family: 'Armata', sans-serif; 
+}
+body {
+    -webkit-animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+    -o-animation: fadein 4s;
+    animation: fadein 4s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Aldrich', sans-serif; }
+    font-family: 'Aldrich', sans-serif; 
+}
 
 .crt-logo {
-    font-family: 'Code-Light', handwriting; }
+    font-family: 'Code-Light', handwriting; 
+}
 .text-primary,
 .crt-icon-list .crt-icon,
 .post-title a:hover,
