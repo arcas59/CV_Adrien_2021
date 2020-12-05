@@ -1,7 +1,3 @@
-/* Sicky Widget */
-// Todo: Mobile options on resize
-// Todo: If sticky content is larger than window height
-
 (function ( $ ) {
 	var $wdg_window_width = 0,
 		$wdg_window_height = 0,
