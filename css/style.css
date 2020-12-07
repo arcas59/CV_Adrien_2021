@@ -1,3 +1,8 @@
+html
+{
+	margin:0;
+	padding:0;
+}
 .crt-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -18,28 +23,17 @@ p {
 .copy {
     text-align: center;
 }
-.from-right,
-.from-left {
-    opacity: 0;
-    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
-}
-.from-right {
-    transform: translate(50px,-30px);
-}
-.from-left {
-    transform: translate(-50px,-30px);
-}
 [aos="fade"] {
-  opacity: 0;
-  transition-property: opacity;
+    opacity: 0;
+    transition-property: opacity;
 }
-
+  
 [aos="fade"].aos-animate {
-  opacity: 1;
+    opacity: 1;
 }
 body[data-aos-duration='2000'] [data-aos],
 [data-aos][data-aos][data-aos-duration='2000']{
-transition-duration: 2000ms;
+  transition-duration: 2000ms;
 }
 .logo1 {
     width: 30px;
