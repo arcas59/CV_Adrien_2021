@@ -35,6 +35,36 @@ body[data-aos-duration='2000'] [data-aos],
 [data-aos][data-aos][data-aos-duration='2000']{
   transition-duration: 2000ms;
 }
+.auto {
+  color :#757575;
+  transition : all 0.5s;
+}
+
+.auto:hover {
+  color: #1FA184
+}
+.lint {
+  color :#757575;
+  transition : all 0.5s;
+}
+.lint:hover {
+  color: #ffc936
+}
+.mani {
+  color :#757575;
+  transition : all 0.5s;
+}
+.mani:hover {
+  color: #ff1919
+}
+.bato {
+  color :#757575;
+  transition : all 0.5s;
+}
+.bato:hover {
+  color: #1981ff
+}
+
 .logo1 {
     width: 30px;
     margin-right: 20px;
