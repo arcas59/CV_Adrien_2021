@@ -50,6 +50,13 @@ body[data-aos-duration='2000'] [data-aos],
 .lint:hover {
   color: #ffc936
 }
+.seda {
+  color: #757575;
+  transition : all 0.5s;
+}
+.seda:hover {
+  color: #f7cce0;
+}
 .mani {
   color :#757575;
   transition : all 0.5s;
